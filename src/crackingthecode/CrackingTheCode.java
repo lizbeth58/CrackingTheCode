@@ -17,8 +17,9 @@ public class CrackingTheCode {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        OneAway test = new OneAway();
-        System.out.println(test.oneAway() );
-    }
-    
+        RotateMatrix test = new RotateMatrix();
+        test.RotateMatrix();
+        test.printMatrix();
+  
+    }    
 }
