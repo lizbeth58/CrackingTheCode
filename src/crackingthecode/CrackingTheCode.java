@@ -17,8 +17,8 @@ public class CrackingTheCode {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        RotateMatrix test = new RotateMatrix();
-        test.RotateMatrix();
+        ZeroMatrix test = new ZeroMatrix();
+        test.zero();
         test.printMatrix();
   
     }    
