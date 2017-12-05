@@ -17,9 +17,7 @@ public class CrackingTheCode {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ZeroMatrix test = new ZeroMatrix();
-        test.zero();
-        test.printMatrix();
-  
+        StringRotate test = new StringRotate();
+        System.out.println(test.isStringRotation());
     }    
 }
