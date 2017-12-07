@@ -5,7 +5,7 @@
  */
 package crackingthecode;
 
-import chpt1.*;
+import chpt2.*;
 
 /**
  *
@@ -17,7 +17,7 @@ public class CrackingTheCode {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        StringRotate test = new StringRotate();
-        System.out.println(test.isStringRotation());
+        KToLast test = new KToLast();
+        System.out.println(test.isK(2));
     }    
 }
